@@ -1,0 +1,32 @@
+{
+    "name": "dayax/zend-test",
+    "description": "A set of genetic (abstract) classes which are commonly used for PHPUnit testing.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "zf2",
+	"zend framework",
+	"phpunit",
+	"dayax"
+    ],
+    "homepage": "https://github.com/dayax/zend-test",
+    "authors": [
+        {
+            "name": "Anthonius Munthi",
+            "email": "me@itstoni.com",
+            "homepage": "http://itstoni.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZfcBase": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
