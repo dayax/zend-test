@@ -23,10 +23,7 @@
     },
     "autoload": {
         "psr-0": {
-            "ZfcBase": "src/"
-        },
-        "classmap": [
-            "./Module.php"
-        ]
+            "dayax": "src/"
+        }
     }
 }
